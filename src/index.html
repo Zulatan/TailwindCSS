@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <!-- animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+</head>
+<body class="px-5 lg:p-10">
+    <!-- fixed navbar -->
+    <nav class="fixed w-full z-20 top-0 start-0 p-5 lg:p-10">
+        <div class="flex justify-end flex-wrap mx-auto">
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <a href="https://github.com/Zulatan" target="_blank" class="px-5">
+                    <img src="./assets/github.svg" alt="" class="hover:opacity-50">
+                </a>
+                <a href="https://www.linkedin.com/in/mikkellau/" target="_blank" class="pl-5">
+                    <img src="./assets/linkedin.svg" alt="" class="hover:opacity-50">
+                </a>
+            </div>
+        </div>
+    </nav>
+      
+    <!-- Hero y-->
+    <div class="h-screen flex justify-left justify-center flex-col">
+        <div class="text-9xl text-slate-300 animate__animated animate__fadeIn">
+            Web Dev
+        </div>
+        <div class="text-slate-300 animate__animated animate__fadeIn">
+            Portfolio
+        </div>
+    </div>
+
+    
+    <div class="projects-container lg:flex px-5 xl: justify-between">    
+    <!-- project 1 -->
+        <div class="project-1-container py-20">
+            <h1 class="project-1-header text-slate-300 text-2xl font-bold py-5">
+                Geodesic Domes
+            </h1>
+            <div class="project-1-image-container transition-all duration-200 filter grayscale hover:grayscale-0">
+                <div class="project-1-image">
+                    <a href="https://www.geodesicdomes.ie/">
+                        <img class=""  src="./assets/geodomes.svg" alt="picture of my first project, which is geodesic domes">
+                    </a>
+                </div>
+            </div>
+            <div class="project-1-text-container max-w-80">
+                <p class="text-slate-300">
+                    Made with a CMS this client wanted to update the look of his website. I was tasked to do this during my first internship at Sunland.dk. The project involved working with HTML, CSS and JS
+                </p>
+            </div>
+        </div>
+
+        <!-- project 2-->
+        <div class="project-2-container py-20">
+            <h1 class="project-1-header text-slate-300 text-2xl font-bold py-5">
+                MMD Final Exam
+            </h1>
+            <div class="project-2-image-container transition-all duration-200 filter grayscale hover:grayscale-0">
+                <div class="project-2-image">
+                    <a href="https://www.geodesicdomes.ie/">
+                        <img class="" src="./assets/mmdfinalexam.svg" alt="image of the website of my final multimediadesign exam">
+                    </a>
+                </div>
+            </div>
+            <div class="project-2-text-container max-w-80">
+                <p class=" text-slate-300">
+                    For the final exam of my Multimediadesign education i was tasked to build a website for a client. I made a portfolio for a consulting engineer with Nuxt.js framework. It is purely a frontend project.
+                </p>
+            </div>
+        </div>
+
+        <!-- project 3-->
+        <div class="project-3-container py-20">
+            <h1 class="project-1-header text-slate-300 text-2xl font-bold py-5">
+                Web Dev 1. Exam
+            </h1>
+            <div class="project-3-image-container transition-all duration-200 filter grayscale hover:grayscale-0">
+                <div class="project-3-image">
+                    <a href="https://www.geodesicdomes.ie/">
+                        <img class="" src="./assets/webdev1exam.svg" alt="image from the mock up of my first exam of my web developer education">
+                    </a>
+                </div>
+            </div>
+            <div class="project-3-text-container max-w-80">
+                <p class="text-slate-300">
+                    For the first exam of my Web Development education i was tasked to build a website that targets a problem. Together with a group of 2, we made an app with Angular for frontend, JS for backend and MySQL & Firebase for storing data.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section -->
+    <div class="contact-container">
+        <div class="linkedin-container">
+
+        </div>
+        <div class="email-container">
+            
+        </div>
+    </div>
+</body>
+</html>
