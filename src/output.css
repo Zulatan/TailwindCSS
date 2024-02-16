@@ -548,6 +548,14 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
 .start-0 {
   inset-inline-start: 0px;
 }
@@ -573,12 +581,32 @@ video {
   height: 100vh;
 }
 
+.h-2\/4 {
+  height: 50%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.max-h-full {
+  max-height: 100%;
+}
+
 .w-full {
   width: 100%;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .max-w-80 {
   max-width: 20rem;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-col {
@@ -587,6 +615,10 @@ video {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-end {
